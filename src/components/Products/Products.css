@@ -1,0 +1,39 @@
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 30%;
+    margin-top: 6px;
+    gap: 20;
+}
+.image{
+    height: 200;
+    object-fit: cover;
+}
+.title-price{
+    display: flex;
+    justify-content: space-between;
+}
+.add-button{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-bottom: 3px;
+}
+.remove-button{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-bottom: 3px; 
+}

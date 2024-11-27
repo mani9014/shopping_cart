@@ -1,0 +1,18 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10;
+    background-color: #ececec;
+    padding: 10;
+    width: 20%;
+}
+.cart-total{
+    text-align: center;
+}
+.cart-prod{
+    display: flex;
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    justify-content: space-between;
+}
